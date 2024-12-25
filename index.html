@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form>
+        <!-- Name -->
+        <label for="name">Name</label>
+        <br />
+        <br />
+        <input type="text" id="name" name="name" value="Maxim"> <br><br>
+        <!-- Password -->
+        <label for="password">Password</label>
+        <br />
+        <br />
+        <input type="password" id="password" name="password"><br><br>
+
+        <!-- Tel -->
+        <label for="tel">Tel</label>
+        <br />
+        <br />
+        <input type="tel" id="tel" name="tel" placeholder="0-000-000"> <br><br>
+
+        <!-- Gender -->
+        <label>Gender</label>
+        <br />
+        <br />
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <!-- Meal -->
+        <label>Meal</label>
+        <br />
+        <br />
+        <input type="checkbox" id="pizza" name="meal" value="pizza">
+        <label for="pizza">Pizza</label>
+        <input type="checkbox" id="salad" name="meal" value="salad" checked>
+        <label for="salad">Salad</label>
+        <input type="checkbox" id="burger" name="meal" value="burger">
+        <label for="burger">Burger</label><br><br>
+
+        <!-- Quantity -->
+        <label for="quantity">Quantity</label>
+        <br />
+        <br />
+        <input type="number" id="quantity" name="quantity" style="width: 50px;"><br><br>
+
+        <!-- Favorite Color -->
+        <label for="color">Favorite Color</label>
+        <br />
+        <br />
+        <input type="color" id="color" name="color" value="#000000"><br><br>
+
+        <!-- About Yourself -->
+        <label for="about">About Yourself</label>
+        <br />
+        <br />
+        <textarea id="about" name="about"></textarea><br><br>
+
+        <!-- Your Photo -->
+        <label for="photo">Your Photo</label>
+        <br />
+        <br />
+        <input type="file" id="photo" name="photo"><br><br>
+
+        <!-- Buttons -->
+        <button type="submit" style="display: inline-block; width: 60px;">Send</button>
+        <button type="reset" style="display: inline-block; width: 60px;">Clear</button>
+    </form>
+</body>
+
+</html>
